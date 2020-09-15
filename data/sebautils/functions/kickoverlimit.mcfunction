@@ -1,0 +1,3 @@
+scoreboard players add KickTimer KickTimer 1
+execute as @a[team=Default] at @s if score KickTimer KickTimer matches 450 if score @s leave matches 1..46456 if score PlayerCount count matches 21..25 run kick @s The Server is above capacity. You must become a Donator to get priority access. You can donate to the server (MINIMUM £2.50) through https://paypal.me/NewTardisModServer
+execute if score KickTimer KickTimer matches 452 run scoreboard players set KickTimer KickTimer 0

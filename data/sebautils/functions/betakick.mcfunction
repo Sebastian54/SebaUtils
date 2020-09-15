@@ -1,0 +1,8 @@
+execute as @a[tag=Restrict] at @s run effect give @s minecraft:slowness 10 255
+execute as @a[tag=Restrict] at @s run effect give @s minecraft:jump_boost 10 137
+execute as @a[tag=Restrict] at @s run effect give @s minecraft:blindness 10 255
+execute as @a[tag=Restrict] at @s unless entity @s[gamemode=adventure] run gamemode adventure @s
+execute as @a[team=Default] at @s unless entity @s[tag=Restrict] run gamemode survival @s
+execute as @a[team=Donator] at @s unless entity @s[tag=Restrict] run gamemode survival @s
+execute as @a[tag=Restrict] at @s run tellraw @s ["",{"text":"\n"},{"text":"The server is currently above capacity.","color":"red"},{"text":"\n"},{"text":"\n"},{"text":"Your movement and interactions have been halted until sufficient capacity is available.","color":"red"},{"text":"\n"},{"text":"There are currently ","color":"red"},{"score":{"name":"PlayerCount","objective":"count"},"color":"gold"},{"text":"/20 ","color":"gold"},{"text":"online.","color":"red"},{"text":"\n"},{"text":"\n"},{"text":"If you wish to have priority upon joining you must have the ","color":"red"},{"text":"\n"},{"text":"Donator ","color":"blue"},{"text":"rank. To donate click ","color":"red"},{"text":"here","color":"gold","clickEvent":{"action":"open_url","value":"https://paypal.me/NewTardisModServer/"},"hoverEvent":{"action":"show_text","value":["",{"text":"PayPal Link","bold":true,"color":"gold"}]}},{"text":"\n"}]
+execute as @a[tag=Restrict] at @s run tp @s ~ ~ ~ 0 0

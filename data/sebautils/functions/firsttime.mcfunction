@@ -1,0 +1,5 @@
+scoreboard objectives add SebaUtilsFirst dummy
+execute unless score SebaUtilsFirst SebaUtilsFirst matches 2 run scoreboard players set SebaUtilsFirst SebaUtilsFirst 0
+execute unless score SebaUtilsFirst SebaUtilsFirst matches 2 run scoreboard players set SebaUtilsFirst SebaUtilsFirst 1
+execute unless score SebaUtilsFirst SebaUtilsFirst matches 2 if score SebaUtilsFirst SebaUtilsFirst matches 1 run tellraw @a ["",{"text":"\n"},{"text":"Whoa! It seems this is your first time using Seba's Utilities!","color":"gold"},{"text":"\n"},{"text":"This is V1.0B","color":"gold"},{"text":"\n"},{"text":"\n"},{"text":"Thank's for downloading!","color":"gold"},{"text":"\n"},{"text":"\n"},{"text":"If you have any questions you are more than welcome to contact me on Discord! ","color":"gold"},{"text":"\n"},{"text":"Sebastian#8637","color":"gold"},{"text":"\n"}]
+scoreboard players set SebaUtilsFirst SebaUtilsFirst 2

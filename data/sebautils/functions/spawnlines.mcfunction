@@ -1,0 +1,3 @@
+summon armor_stand -60 67 47 {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,Marker:1b,CustomName:"{\"text\":\"Welcome to the server!\",\"color\":\"dark_purple\"}",CustomNameVisible:1b,DisabledSlots:31}
+summon armor_stand -60 66.6 47 {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,Marker:1b,CustomName:"{\"text\":\"Do /trigger rules to read the rules!\",\"color\":\"dark_purple\"}",CustomNameVisible:1b,DisabledSlots:31}
+summon armor_stand -60 66.2 47 {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,Marker:1b,CustomName:"{\"text\":\"And remember, don't be Zel!\",\"color\":\"dark_purple\"}",CustomNameVisible:1b,DisabledSlots:31}
