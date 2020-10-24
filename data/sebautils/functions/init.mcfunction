@@ -22,6 +22,9 @@ scoreboard objectives add rules trigger
 scoreboard objectives add Void dummy
 scoreboard objectives add SebaUtilsLagON dummy
 scoreboard objectives add PlayerCount dummy
+bossbar add 1 "test"
+bossbar set minecraft:1 max 1
+bossbar set minecraft:1 value 1
 title @a actionbar "[DEBUG] Seba's Utilities has been loaded."
 execute as @a at @s if score SebaUtilsFirst SebaUtilsFirst matches 2 run tellraw @s ["",{"text":"\n"},{"text":"Sorry about that!","color":"red"},{"text":"\n"},{"text":"We just had to reload to apply some changes.","color":"red"},{"text":"\n"}]
 function sebautils:firsttime
