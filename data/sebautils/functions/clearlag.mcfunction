@@ -21,4 +21,3 @@ execute unless score SebaUtilsLagON SebaUtilsLagON matches 0 run kill @e[type=mi
 execute unless score SebaUtilsLagON SebaUtilsLagON matches 0 run kill @e[type=minecraft:polar_bear]
 execute unless score SebaUtilsLagON SebaUtilsLagON matches 0 run kill @e[type=minecraft:phantom]
 execute unless score SebaUtilsLagON SebaUtilsLagON matches 0 run kill @e[type=minecraft:blaze]
-execute unless score SebaUtilsLagON SebaUtilsLagON matches 0 run kill @e[type=weeping_angels:weeping_angel]

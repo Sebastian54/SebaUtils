@@ -35,8 +35,8 @@ execute as @a at @s if score @s OptOutBossbar matches 1 run scoreboard players s
 
 scoreboard players enable @a OptInBossbar
 execute as @a at @s if score @s OptInBossbar matches 1 run tag @s remove OptOutBossbar
+execute as @a at @s if score @s OptInBossbar matches 1 run bossbar set minecraft:1 players @s
 execute as @a at @s if score @s OptInBossbar matches 1 run tellraw @s "Successfully Opted In"
-execute as @a at @s if score @s OptInBossbar matches 1 run scoreboard players reset @s OptOutBossbar
 execute as @a at @s if score @s OptInBossbar matches 1 run scoreboard players set @s OptInBossbar 0
 
 scoreboard players enable @a[team=Staff] Staff

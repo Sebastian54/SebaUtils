@@ -20,6 +20,8 @@ scoreboard objectives add OptOutBossbar trigger
 scoreboard objectives add OptInBossbar trigger
 scoreboard objectives add rules trigger
 scoreboard objectives add Void dummy
-say [DEBUG] Seba's Utilities has been loaded.
+scoreboard objectives add SebaUtilsLagON dummy
+scoreboard objectives add PlayerCount dummy
+title @a actionbar "[DEBUG] Seba's Utilities has been loaded."
 execute as @a at @s if score SebaUtilsFirst SebaUtilsFirst matches 2 run tellraw @s ["",{"text":"\n"},{"text":"Sorry about that!","color":"red"},{"text":"\n"},{"text":"We just had to reload to apply some changes.","color":"red"},{"text":"\n"}]
 function sebautils:firsttime
