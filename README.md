@@ -1,6 +1,6 @@
 # SebaUtils
 
-WARNING: THIS CODE IS WRITTEN ASSUMING THAT SEBAUTILSADV IS INSTALLED ALONGSIDE, IF NOT THEN ISSUES WILL RISE.
+WARNING: THIS CODE IS WRITTEN ASSUMING THAT SEBAUTILSADV (https://github.com/Sebastian54/sebautilsadv) IS INSTALLED ALONGSIDE, IF NOT THEN ISSUES WILL RISE.
 
 SebaUtils has been written as a Server Management tool for our servers.
 It is not a mod, it is an MC Datapack written with 1.14.4 as the base version.
