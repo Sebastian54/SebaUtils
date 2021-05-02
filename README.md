@@ -9,4 +9,4 @@ The code is not entirely friendly for other servers, as has been written especia
 
 This also has a API sort of thing, where it tracks how many players are on the server, this is counted as the scoreboard 'PlayerCount'. It also tracks which dimension they are in, this is counted as the scoreboard 'dimension'.
 
-If you have any questions, do not hesitate to contact me on Discord. Seba542#3216
+If you have any questions, do not hesitate to contact me on Discord. Sebastian#6789
